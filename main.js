@@ -2,7 +2,7 @@
 // and callback
 
 // button click
-var translateButton = document.querySelector("#translate-button");
+var translateButton = document.getElementById("translate-button");
 
 translateButton.addEventListener("click", buttonClickHandler);
 
