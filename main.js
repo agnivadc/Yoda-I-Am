@@ -1,6 +1,3 @@
-// welcome to event based programming
-// and callback
-
 // button click
 var translateButton = document.getElementById("translate-button");
 
@@ -15,7 +12,7 @@ var translateOutput = document.querySelector("#translate-output");
 var url = "https://api.funtranslations.com/translate/yoda.json";
 
 function buttonClickHandler(event) {
-  console.log("button clicked");
+  console.log("translate-button clicked");
   var input = translateInput.value;
   var finalURL = constructURL(input);
   console.log(finalURL);
